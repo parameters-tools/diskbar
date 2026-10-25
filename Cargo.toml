@@ -1,0 +1,15 @@
+[package]
+name = "diskbar"
+version = "0.1.0"
+edition = "2024"
+authors = ["Parameters Tools <parameters.tools@gmail.com>"]
+description = "A blazing-fast (sub-millisecond) disk usage visualizer with clean progress bars, powered by direct Linux kernel syscalls."
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/parameters-tools/diskbar"
+homepage = "https://github.com/parameters-tools/diskbar"
+keywords = ["cli", "disk", "df", "storage", "linux"]
+categories = ["command-line-utilities", "system"]
+
+[dependencies]
+libc = "0.2"
